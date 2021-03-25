@@ -1,0 +1,528 @@
+/*=============================================header=================================================*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo {
+    font-size: 26px;
+    color: white;
+}
+.text_white {
+    color: white;
+}
+.nav_lista li {
+    padding: 10px 12px;
+}
+.nav_lista li a {
+    color: white;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav_lista li a:hover{
+    color: #007bff;
+}
+.con_bg {
+    height: 100vh;
+    background-image: url("../image_ass5/intro-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nava{
+    z-index: 30;
+}
+.con_heading{
+    text-align: center;
+    position: relative;
+    top: 32%;
+}
+.heading{
+    z-index: 30;
+    color: #ffffff;
+    font-family:-apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+      'Open Sans', 'Helvetica Neue', sans-serif, 'Times New Roman', Times, serif;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0,0.6);
+}
+.heading h1{
+font-size: 72px;
+}
+
+.typing::after{
+    content: "";
+    animation: typing_key 1s infinite alternate ;
+    border-right: 2px solid white;
+}
+
+ @keyframes typing_key{
+    0%{ 
+       content: "";
+    }
+    10%{ 
+        content: "D";
+     }
+    20%{ 
+        content: "De";
+     }
+     30%{ 
+        content: "Des";
+     }
+     40%{ 
+        content: "Desi";
+     }
+     50%{ 
+        content: "Desig";
+     }
+     60%{ 
+        content: "Design";
+     }
+     70%{ 
+        content: "Designe";
+     }    
+     80%{ 
+        content: "Designer";
+     }  
+     90%{ 
+        content: "Designer";
+     }
+     100%{ 
+        content: "Designer";
+     }
+   
+                              
+
+
+
+
+
+
+
+    }
+/*===============================about me=========================================*/
+.about_me_con p{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+ Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 20px;
+ color: #4e4e4e;
+ padding: 0 0 16px;
+}
+.about_me_con h2{
+    position: relative;
+    font-size: 32px;
+    color: #1e1e1e;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about_me_con{
+padding: 0 15px;
+}
+.about_me_con h2::before{
+    content: " ";
+    height: 3px;
+    width: 100px;
+    position: absolute;
+   
+    bottom: -12px;
+    background-color: #0078ff;
+}
+.test_me_con{
+    display: flex;
+    justify-content:space-between;
+}
+.row_con{
+    margin: 0 0 0;
+    padding: 64px 48px;
+    background-color: white;
+   
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.font-20{
+    font-size: 20px;
+}
+.sec_about{
+    background-color: #f5f5f5;
+}
+/*======================================services==========================================*/
+.ser_head h2{
+    padding-top: 60px;
+    font-size: 48px;
+    color: #1e1e1e;
+}
+.ser_head p{
+    position: relative;
+    font-size: 16px;
+    color: #4e4e4e;
+    
+}
+.ser_head p::before{
+    content: " ";
+    left: 48%;
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    position: absolute;
+    bottom: -12px;
+    
+   
+}
+.sec_col{
+    background-color: #f5f5f5;
+}
+.ser_it {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 10px #0078ff;
+    margin: 8px 0 12px 0;
+    transition: all 0.8s;
+    
+}
+.ser_it:hover{
+    background-color: #0078ff;
+    color: #ffffff;
+    box-shadow: 0 0 0 10px rgba(0,120,255, 0.6);
+}
+.ser_box{
+    padding: 40px 20.8px;
+    margin: 0 0 48px;
+    border-radius: 1rem;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+/*============================rest============================================*/
+.rst_con{
+    position: relative;
+    background-image: url("../image_ass5/counters-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 8rem 0;
+  
+}
+.layer_zrq{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,120,255, 0.7);
+    z-index: 35;
+}
+.rst_itm p{
+color: white;
+}
+.rst_itm{
+position: relative;
+z-index: 50;
+}
+
+.rst_i{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #cde1f8;
+    font-size: 2rem;
+    color: white;
+    
+}
+.rst_num{
+    padding-top: 8px;
+    font-size: 32px;
+    color: white;
+}
+/*=====================================portfolio========================================*/
+.port_head{text-align: center;
+
+    padding: 50px 0;
+}
+.iconna{
+    color: #0078ff;
+    position: relative;
+}
+.port_itm{
+   
+    margin: 0 0 48px;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    overflow: hidden;
+   
+}
+.port_itm h5{
+    color: #0078ff;
+    font-size: 13px;
+}
+.port_itm h5 span{
+    color: #444444;
+    font-size: 13px;
+}
+
+
+.iconna span{
+    cursor: pointer;
+ position: relative;
+ right: 30px;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    border: rgba(0,120,255, 0.6) 1px solid;
+    border-radius: 50%;
+
+}
+.port_itm img{
+  
+transition: all 1s;
+}
+.port_im_con{
+    overflow: hidden;
+}
+.port_itm:hover img{
+    transform: scale(1.3,1.3)
+
+}
+.port_head{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.port_head h2{
+    font-size: 48px;
+    color: #1e1e1e;
+}
+.port_head p{
+    font-size: 16px;
+    color: #4e4e4e;
+    position: relative;
+    padding-bottom: 10px;
+}
+.port_head p::before{
+
+content: " ";
+    left: 48%;
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    position: absolute;
+    bottom: -12px;
+
+}
+/*=========================================slid==================*/
+.slid_bg{
+    padding: 8rem 0;
+    background-image: url("../image_ass5/overlay-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.slid_itm img{
+    margin-bottom: 8px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.slid_itm{
+    text-align: center;
+    position: relative;
+    z-index: 50;
+}
+.slid_itm h2{
+    color:#ffffff ;
+    font-size: 23px;
+}
+.slid_itm p{
+    color:#ffffff ;
+    font-size: 20px;
+}
+
+.comit{
+    font-size: 30px;
+   background-color: #ffffff;
+   color: #0078ff;
+   margin: 0 auto;
+   width: 52px;
+   height: 52px;
+   display: block;
+   border-radius: 50%;
+  margin-bottom: 70px;
+}
+
+.slid_con{
+    position: relative;
+    z-index: 50;
+}
+/*==========================================blog=============================*/
+.blg_con{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.blg_post img{
+    width: 100%;
+    cursor: pointer;
+}
+.blg_head h2{
+    font-size: 48px;
+    color: #1e1e1e;
+}
+.blg_head p{
+    position: relative;
+}
+.blg_cap h6{
+    background-color: #0078ff;
+    text-align: center;
+color: #ffffff;
+position: relative;
+width: 70px;
+height: 30px;
+bottom: 15px;
+z-index: 10;
+font-size: 12px;
+padding-top: 8px;
+border-radius: 4px;
+}
+.blg_cap{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.blg_itm h3{
+    font-size: 21px;
+    color: #1e1e1e;
+    padding:5px 15px;
+}
+.blg_itm p{
+    color: #4e4e4e;
+    padding:5px 15px 20px;
+    border-bottom: 1px solid #444444;
+
+}
+
+.blg_itm{
+   background-color: #ffffff;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+
+}
+.blg_head p::before{
+    content: " ";
+        left: 48%;
+        width: 40px;
+        height: 5px;
+        background-color: #0078ff;
+        position: absolute;
+        bottom: -12px;
+    }
+
+
+.blg_str{
+    display: flex;
+    align-items: center;
+}
+
+.blg_str img{
+width: 32px;
+height: 32px;
+border-radius: 50%;
+margin-left: 8px;
+}
+.blg_str h6{
+    padding-top: 5px;
+    padding-left: 3px;
+font-size: 13px;
+}
+.str_2{
+   top: 0;
+padding-top: 10px;
+   right: 0;
+
+}
+/*=============================contact====================================*/
+.cnt_con{
+background-image: url("../image_ass5/overlay-bg.jpg");
+
+background-attachment: fixed;
+position: relative;
+padding: 8rem 0 4rem;
+}
+.cnt_itm button{
+    padding: 10px 24px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #0078ff;
+    border-radius: 5rem;
+    border: none;
+}
+.cnt_itm h2{
+    font-size: 32px;
+    color: #1e1e1e;
+    margin-bottom: 15px;
+}
+.cnt_itm p{
+    font-size: 20px;
+    color: #4e4e4e;
+    margin-bottom: 15px;
+}
+.inpt{
+    padding: 20px 0;
+}
+.inpt input{
+    padding:15px;
+    width: 100%;
+    
+}
+.inpt textarea{
+    width: 100%;
+    padding: 5px;
+}
+.cnt_r{
+    position: relative;
+    z-index: 60;
+    
+    padding: 48px;
+    margin-bottom: 48px;
+    background-color: #ffffff;
+}
+.ser_ic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     background-color: #ffffff;
+     box-shadow: 0 0 0 10px #0078ff;
+     margin: 8px 12px 12px 15px;
+     transition: all 0.8s;
+}
+.ser_ic:hover{
+    background-color: #0078ff;
+    color: #ffffff;
+    box-shadow: 0 0 0 10px rgba(0,120,255, 0.6);
+}
+/*=================================last==================================*/
+.last{
+    text-align: center;
+    padding: 25px;
+    background-color: #0078ff;
+}
+.last p{
+color: #ffffff;
+}
